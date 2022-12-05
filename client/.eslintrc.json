@@ -1,0 +1,74 @@
+{
+    "globals": {
+        "NodeJS": true
+    },
+    "extends": [
+        "react-app",
+        "react-app/jest",
+        "airbnb",
+        "prettier"
+    ],
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": [
+            "error"
+        ],
+        "no-plusplus": [
+            0
+        ],
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".tsx"
+                ]
+            }
+        ],
+        "react/jsx-props-no-spreading": [
+            0
+        ],
+        "react/no-unused-prop-types": [
+            2
+        ],
+        "react/prop-types": [
+            2
+        ],
+        "template-curly-spacing": "off",
+        "indent": [
+            "error",
+            2,
+            {
+                "ignoredNodes": [
+                    "TemplateLiteral"
+                ]
+            }
+        ],
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "js": "never",
+                "jsx": "never",
+                "ts": "never",
+                "tsx": "never"
+            }
+        ]
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx"
+                ]
+            }
+        }
+    }
+}

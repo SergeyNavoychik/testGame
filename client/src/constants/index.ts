@@ -1,0 +1,3 @@
+export const TIME_HIDE_KILLED_DUCK = 3000;
+export const MIN_DUCK_FLY_DURATION = 6000;
+export const MAX_DUCK_FLY_DURATION = 9000;

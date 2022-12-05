@@ -1,0 +1,11 @@
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  width: 60vw;
+  height: 500px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: aqua;
+  cursor: crosshair;
+}
