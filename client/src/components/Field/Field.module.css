@@ -6,6 +6,8 @@
   height: 500px;
   border: 1px solid #000;
   border-radius: 10px;
-  background-color: aqua;
+  background-image: url('./images/fieldBg.jpg');
+  background-position: center bottom;
+  background-size: cover;
   cursor: crosshair;
 }
