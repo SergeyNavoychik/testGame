@@ -10,7 +10,7 @@
 }
 
 .duck_fly {
-  background-image: url(./images/duckPosition1.jpg);
+  background-image: url(./images/duckPosition1.png);
   animation: fly infinite 500ms;
 
   composes: duck;
@@ -21,7 +21,7 @@
 }
 
 .duck_killed {
-  background-image: url(./images/duckKilled.jpg);
+  background-image: url(./images/duckKilled.png);
 
   composes: duck;
 }
@@ -36,14 +36,14 @@
 
 @keyframes fly {
   0% {
-    background-image: url(./images/duckPosition1.jpg);
+    background-image: url(./images/duckPosition1.png);
   }
 
   40% {
-    background-image: url(./images/duckPosition2.jpg);
+    background-image: url(./images/duckPosition2.png);
   }
 
   100% {
-    background-image: url(./images/duckPosition1.jpg);
+    background-image: url(./images/duckPosition1.png);
   }
 }
